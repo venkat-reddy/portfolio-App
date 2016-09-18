@@ -11,7 +11,7 @@
 		3C2BA9281D8C674A00063697 /* SecondWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */; };
 		3C2BA92A1D8C774F00063697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2BA9291D8C774F00063697 /* Foundation.framework */; };
 		3C2BA92C1D8C775800063697 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2BA92B1D8C775800063697 /* CoreFoundation.framework */; };
-		3C2BA9321D8D8AE100063697 /* Mobile Portfolio website in Resources */ = {isa = PBXBuildFile; fileRef = 3C2BA9311D8D8AE100063697 /* Mobile Portfolio website */; };
+		3C5A1C791D8F38AE003EFB39 /* Mobile Portfolio website in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */; };
 		3CBA1E181D8C58F400F90154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E171D8C58F400F90154 /* main.m */; };
 		3CBA1E1B1D8C58F400F90154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E1A1D8C58F400F90154 /* AppDelegate.m */; };
 		3CBA1E1E1D8C58F400F90154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E1D1D8C58F400F90154 /* ViewController.m */; };
@@ -47,7 +47,7 @@
 		3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondWebPageViewController.m; sourceTree = "<group>"; };
 		3C2BA9291D8C774F00063697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C2BA92B1D8C775800063697 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		3C2BA9311D8D8AE100063697 /* Mobile Portfolio website */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Mobile Portfolio website"; path = "../../Mobile Portfolio website"; sourceTree = "<group>"; };
+		3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mobile Portfolio website"; sourceTree = "<group>"; };
 		3CBA1E131D8C58F400F90154 /* portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBA1E171D8C58F400F90154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CBA1E191D8C58F400F90154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 				3C2BA9231D8C663500063697 /* FirstWebPageViewController.h */,
 				3C2BA9241D8C663500063697 /* FirstWebPageViewController.m */,
 				3C2BA9261D8C674A00063697 /* SecondWebPageViewController.h */,
+				3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */,
 				3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */,
-				3C2BA9311D8D8AE100063697 /* Mobile Portfolio website */,
 				3CBA1E251D8C58F400F90154 /* Assets.xcassets */,
 				3CBA1E271D8C58F400F90154 /* LaunchScreen.storyboard */,
 				3CBA1E2A1D8C58F400F90154 /* Info.plist */,
@@ -271,7 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CBA1E291D8C58F400F90154 /* LaunchScreen.storyboard in Resources */,
-				3C2BA9321D8D8AE100063697 /* Mobile Portfolio website in Resources */,
+				3C5A1C791D8F38AE003EFB39 /* Mobile Portfolio website in Resources */,
 				3CBA1E261D8C58F400F90154 /* Assets.xcassets in Resources */,
 				3CBA1E211D8C58F400F90154 /* Main.storyboard in Resources */,
 			);
