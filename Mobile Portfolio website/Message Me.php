@@ -4,7 +4,7 @@ Include('connect.php')
 //if submit is not blanked i.e. it is clicked.
 If(isset($_REQUEST['submit'])!='')
 {
-If($_REQUEST['name']=='' || $_REQUEST['email']=='' || $_REQUEST['phone']==''|| $_REQUEST['message']=='')
+If($_REQUEST[‘name']=='' || $_REQUEST['email']=='' || $_REQUEST['phone']==''|| $_REQUEST['message']==‘j’)
 {
 Echo "please fill the empty field.";
 }

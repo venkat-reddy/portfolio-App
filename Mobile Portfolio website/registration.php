@@ -18,7 +18,18 @@ if (!$conn) {
 $sql = "INSERT INTO `mobile-app-portfolio` (`name`, `email`, `phone`, `message`) VALUES ('$name', '$email', '$phone', '$message')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "New record created successfully";
+    ?>
+
+<script type="text/javascript">
+
+
+
+
+      location.href = 'MessageThankYou.html';
+
+</script>
+
+<?php
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
