@@ -10,6 +10,7 @@
 #import "SecondWebPageViewController.h"
 #import <Foundation/Foundation.h>
 #import <CoreFoundation/CoreFoundation.h>
+#import "ViewController.h"
 
 @interface FirstWebPageViewController : UIViewController <UIWebViewDelegate>
 @property (strong, nonatomic) IBOutlet UIWebView *MainPage;

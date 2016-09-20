@@ -54,7 +54,10 @@
 }
 - (void) BackOption: (id)sender
 {
-    [self.navigationController pushViewController:[[self storyboard] instantiateViewControllerWithIdentifier:@"HomePageViewController"] animated:YES];
+    ViewController *nextViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HomePageViewController"];
+    [self presentViewController:nextViewController animated: YES completion: nil];
+    
+    //WebServiceViewController *wc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"HomePageViewController"];
 }
 
 

@@ -123,6 +123,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="DetailsLabel" destination="s57-wQ-Slw" id="TGd-9l-rCi"/>
                         <outlet property="WelcomeLabel" destination="cBe-cg-nCs" id="MFv-OB-fZ2"/>

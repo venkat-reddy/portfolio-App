@@ -29,6 +29,37 @@
     
     
 }
+- (NSUInteger) supportedInterfaceOrientations {
+    // Return a bitmask of supported orientations. If you need more,
+    // use bitwise or (see the commented return).
+    NSUInteger valueForRturn;
+    if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+    {
+        valueForRturn = UIInterfaceOrientationMaskAll;
+    }
+    else
+    {
+        valueForRturn = UIInterfaceOrientationMaskPortrait;
+    }
+    
+    return valueForRturn;
+    // return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskPortraitUpsideDown;
+}
+/*
+ - (UIInterfaceOrientation) preferredInterfaceOrientationForPresentation {
+ // Return the orientation you'd prefer - this is what it launches to. The
+ // user can still rotate. You don't have to implement this method, in which
+ // case it launches in the current orientation
+ if ( UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad )
+ {
+ return UIInterfaceOrientationPortrait;
+ }
+ else{
+ return UIInterfaceOrientationMaskAll;
+ }
+ }
+ */
+
 - (void) AnimationOfText {
     NSLog(@"Came in to Animation of Text");
     [WelcomeLabel setHidden:NO];
