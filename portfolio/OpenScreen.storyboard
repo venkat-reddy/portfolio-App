@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dOv-vT-tQN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Open Screen View Controller-->
+        <scene sceneID="Prd-ZA-SME">
+            <objects>
+                <viewController id="dOv-vT-tQN" customClass="OpenScreenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="56h-LG-hg5"/>
+                        <viewControllerLayoutGuide type="bottom" id="toK-vL-FKr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LBy-Ep-wGA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lsR-Rt-Ddx">
+                                <rect key="frame" x="155" y="59" width="290" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="290" id="tkc-5t-BHv"/>
+                                    <constraint firstAttribute="width" constant="290" id="vp8-O4-jJx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBe-cg-nCs">
+                                <rect key="frame" x="247" y="408" width="107" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VJb-b7-0bi"/>
+                                    <constraint firstAttribute="width" constant="107" id="fjN-ra-48T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Portfolio App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s57-wQ-Slw">
+                                <rect key="frame" x="223" y="461" width="155" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="GkO-56-1t6"/>
+                                    <constraint firstAttribute="height" constant="21" id="w6S-c2-Vi7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cBe-cg-nCs" firstAttribute="centerX" secondItem="LBy-Ep-wGA" secondAttribute="centerX" id="1a7-eh-nU8"/>
+                            <constraint firstItem="lsR-Rt-Ddx" firstAttribute="top" secondItem="56h-LG-hg5" secondAttribute="bottom" constant="39" id="D6b-Eb-ONY"/>
+                            <constraint firstItem="s57-wQ-Slw" firstAttribute="centerX" secondItem="LBy-Ep-wGA" secondAttribute="centerX" id="EA1-g7-5N5"/>
+                            <constraint firstItem="lsR-Rt-Ddx" firstAttribute="centerX" secondItem="LBy-Ep-wGA" secondAttribute="centerX" id="Hh2-CU-6As"/>
+                            <constraint firstItem="s57-wQ-Slw" firstAttribute="top" secondItem="cBe-cg-nCs" secondAttribute="bottom" constant="32" id="pi4-CS-YsP"/>
+                            <constraint firstItem="cBe-cg-nCs" firstAttribute="top" secondItem="lsR-Rt-Ddx" secondAttribute="bottom" constant="59" id="sml-J3-i7i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DetailsLabel" destination="s57-wQ-Slw" id="TGd-9l-rCi"/>
+                        <outlet property="WelcomeLabel" destination="cBe-cg-nCs" id="MFv-OB-fZ2"/>
+                        <outlet property="animatedGif" destination="lsR-Rt-Ddx" id="8Pd-DF-Uv5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXO-kp-8Ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="486" y="341"/>
+        </scene>
+    </scenes>
+</document>

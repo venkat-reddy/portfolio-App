@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C14C4CE1D90AF2F00605030 /* OpenScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14C4CA1D90AF2F00605030 /* OpenScreenViewController.m */; };
+		3C14C4CF1D90AF2F00605030 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C14C4CC1D90AF2F00605030 /* UIImage+animatedGIF.m */; };
+		3C14C4D11D90AFFC00605030 /* OpenScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C4D01D90AFFC00605030 /* OpenScreen.storyboard */; };
+		3C14C4D51D90BED000605030 /* NewHello1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C4D41D90BED000605030 /* NewHello1.gif */; };
 		3C2BA9251D8C663500063697 /* FirstWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BA9241D8C663500063697 /* FirstWebPageViewController.m */; };
 		3C2BA9281D8C674A00063697 /* SecondWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */; };
 		3C2BA92A1D8C774F00063697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2BA9291D8C774F00063697 /* Foundation.framework */; };
 		3C2BA92C1D8C775800063697 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2BA92B1D8C775800063697 /* CoreFoundation.framework */; };
-		3C5A1C791D8F38AE003EFB39 /* Mobile Portfolio website in Resources */ = {isa = PBXBuildFile; fileRef = 3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */; };
+		3C705AF41D90AE900064ADEC /* Mobile Portfolio website in Resources */ = {isa = PBXBuildFile; fileRef = 3C705AF31D90AE900064ADEC /* Mobile Portfolio website */; };
 		3CBA1E181D8C58F400F90154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E171D8C58F400F90154 /* main.m */; };
 		3CBA1E1B1D8C58F400F90154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E1A1D8C58F400F90154 /* AppDelegate.m */; };
 		3CBA1E1E1D8C58F400F90154 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1E1D1D8C58F400F90154 /* ViewController.m */; };
@@ -41,13 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C14C4C91D90AF2F00605030 /* OpenScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenScreenViewController.h; path = ../OpenScreenViewController.h; sourceTree = "<group>"; };
+		3C14C4CA1D90AF2F00605030 /* OpenScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenScreenViewController.m; path = ../OpenScreenViewController.m; sourceTree = "<group>"; };
+		3C14C4CB1D90AF2F00605030 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+animatedGIF.h"; path = "../UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		3C14C4CC1D90AF2F00605030 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+animatedGIF.m"; path = "../UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		3C14C4D01D90AFFC00605030 /* OpenScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OpenScreen.storyboard; sourceTree = "<group>"; };
+		3C14C4D41D90BED000605030 /* NewHello1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NewHello1.gif; sourceTree = "<group>"; };
 		3C2BA9231D8C663500063697 /* FirstWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstWebPageViewController.h; sourceTree = "<group>"; };
 		3C2BA9241D8C663500063697 /* FirstWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstWebPageViewController.m; sourceTree = "<group>"; };
 		3C2BA9261D8C674A00063697 /* SecondWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondWebPageViewController.h; sourceTree = "<group>"; };
 		3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondWebPageViewController.m; sourceTree = "<group>"; };
 		3C2BA9291D8C774F00063697 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C2BA92B1D8C775800063697 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mobile Portfolio website"; sourceTree = "<group>"; };
+		3C705AF31D90AE900064ADEC /* Mobile Portfolio website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Mobile Portfolio website"; sourceTree = "<group>"; };
 		3CBA1E131D8C58F400F90154 /* portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBA1E171D8C58F400F90154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CBA1E191D8C58F400F90154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,14 +131,20 @@
 			children = (
 				3CBA1E191D8C58F400F90154 /* AppDelegate.h */,
 				3CBA1E1A1D8C58F400F90154 /* AppDelegate.m */,
+				3C14C4C91D90AF2F00605030 /* OpenScreenViewController.h */,
+				3C14C4CA1D90AF2F00605030 /* OpenScreenViewController.m */,
+				3C14C4CB1D90AF2F00605030 /* UIImage+animatedGIF.h */,
+				3C14C4CC1D90AF2F00605030 /* UIImage+animatedGIF.m */,
 				3CBA1E1C1D8C58F400F90154 /* ViewController.h */,
 				3CBA1E1D1D8C58F400F90154 /* ViewController.m */,
+				3C14C4D41D90BED000605030 /* NewHello1.gif */,
 				3CBA1E1F1D8C58F400F90154 /* Main.storyboard */,
+				3C14C4D01D90AFFC00605030 /* OpenScreen.storyboard */,
 				3C2BA9231D8C663500063697 /* FirstWebPageViewController.h */,
 				3C2BA9241D8C663500063697 /* FirstWebPageViewController.m */,
 				3C2BA9261D8C674A00063697 /* SecondWebPageViewController.h */,
-				3C5A1C781D8F38AE003EFB39 /* Mobile Portfolio website */,
 				3C2BA9271D8C674A00063697 /* SecondWebPageViewController.m */,
+				3C705AF31D90AE900064ADEC /* Mobile Portfolio website */,
 				3CBA1E251D8C58F400F90154 /* Assets.xcassets */,
 				3CBA1E271D8C58F400F90154 /* LaunchScreen.storyboard */,
 				3CBA1E2A1D8C58F400F90154 /* Info.plist */,
@@ -271,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CBA1E291D8C58F400F90154 /* LaunchScreen.storyboard in Resources */,
-				3C5A1C791D8F38AE003EFB39 /* Mobile Portfolio website in Resources */,
+				3C705AF41D90AE900064ADEC /* Mobile Portfolio website in Resources */,
+				3C14C4D11D90AFFC00605030 /* OpenScreen.storyboard in Resources */,
 				3CBA1E261D8C58F400F90154 /* Assets.xcassets in Resources */,
+				3C14C4D51D90BED000605030 /* NewHello1.gif in Resources */,
 				3CBA1E211D8C58F400F90154 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,9 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CBA1E241D8C58F400F90154 /* portfolio.xcdatamodeld in Sources */,
+				3C14C4CE1D90AF2F00605030 /* OpenScreenViewController.m in Sources */,
 				3C2BA9251D8C663500063697 /* FirstWebPageViewController.m in Sources */,
 				3CBA1E1E1D8C58F400F90154 /* ViewController.m in Sources */,
 				3CBA1E1B1D8C58F400F90154 /* AppDelegate.m in Sources */,
+				3C14C4CF1D90AF2F00605030 /* UIImage+animatedGIF.m in Sources */,
 				3C2BA9281D8C674A00063697 /* SecondWebPageViewController.m in Sources */,
 				3CBA1E181D8C58F400F90154 /* main.m in Sources */,
 			);
