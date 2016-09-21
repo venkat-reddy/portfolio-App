@@ -38,7 +38,7 @@
         NSLog(@"link clicked = %@",SelectedLink);
         
         
-        if ([SelectedLink isEqual: @"https://www.linkedin.com/in/venkat-reddy-954961112?trk=hp-identity-name"]  || [SelectedLink isEqual: @"https://www.facebook.com/venkatyadavally1992"] || [SelectedLink isEqual: @"https://twitter.com/VenkatYedavally"])
+        if ([SelectedLink isEqual: @"https://www.linkedin.com/in/venkat-reddy-954961112?trk=hp-identity-name"]  || [SelectedLink isEqual: @"https://www.facebook.com/venkat.reddy.profile"] || [SelectedLink isEqual: @"https://twitter.com/venkat_reddy_"]  || [SelectedLink isEqual: @"https://github.com/venkat-reddy/portfolio-App"])
         {
             NSLog(@"Came into If condition in LinkedIn, Facebook condition");
             [[UIApplication sharedApplication] openURL:[request URL]];
